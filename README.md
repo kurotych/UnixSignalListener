@@ -21,7 +21,9 @@ It is developed according to the common approach for multi-threaded programs.
 ---
 ##### Set ignoring of a signal. Equals to: signal(signum, SIG_IGN);
 ```void setSigIgnore(int signum)```
- 
+
+---
+
 ##### Set timeout handler. The handler will be called by timeout if no signals are received.
 ```void setTimeoutHandler(uint timeout, std::function<void()> handler)```
 
